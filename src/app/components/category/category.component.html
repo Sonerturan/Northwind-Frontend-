@@ -1,5 +1,8 @@
 <ul class="list-group">
-  <li [class]="getAllCategoryClass()"(click)="setCurrentCategoryRemove()">
+  <li 
+  (click)="setCurrentCategoryRemove()"
+  [class]="getAllCategoryClass()"
+  routerLink="">
     Tüm Ürünler
   </li>
 
